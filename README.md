@@ -1,200 +1,123 @@
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+<a href="https://github.com/WikiPortal/DoodleCollab" alt="GitHub contributors">
+
+---
+<h1 align="center">DoodleCollab</h1>
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/19564969?v=4" alt="moja global logo" height ="auto" width="200" />
-<br />
-<h1>Community Website</h1>
-<p>
-Repository for the moja global community website, a resource for the moja global community.
-</p>
-<p align="center">
-<a href="https://github.com/moja-global/community-website" alt="GitHub contributors">
-<img src="https://img.shields.io/github/contributors/moja-global/community-website.svg" /></a>
-<a href="https://github.com/moja-global/community-website" alt="GitHub issues by-label">
-<img src="https://img.shields.io/github/issues/moja-global/community-website" /></a>
-<a href="https://mojaglobal.slack.com/" alt="Slack">
-<img src="https://img.shields.io/badge/Slack-@layer5.svg?logo=slack" /></a>
-<a href="https://github.com/moja-global/community-website" alt="Twitter Follow">
-<img src="https://img.shields.io/twitter/follow/mojaglobal.svg?label=Follow&style=social" /></a>
-<a href="https://github.com/moja-global/community-website" alt="License">
-<img src="https://img.shields.io/github/license/moja-global/community-website.svg" /></a>
-</p>
+
+![DoodleCollab](https://github.com/WikiPortal/DoodleCollab/blob/main/src/assets/ReadMe/doodleCollab.gif)
+
+   </div>
+   <h4 align="center">Your Ultimate Whiteboard and Sharing Solution</h4>
+<div align="center">
 </div>
 
-## Introduction
+## What is DoodleCollab ? 🤔
 
-[Moja global](http://moja.global/) is a collaboration under the [Linux Foundation](https://linuxfoundation.org/) that aims for the widest possible collaboration on and use of credible tools to better manage the land sector. The flagship software is the [Full Lands Integration Tool (FLINT)](https://github.com/moja-global/flint), a tool to estimate emissions and sinks of greenhouse gasses from forestry and agriculture.
+DoodleCollab is a cutting-edge application designed to transform the way we collaborate, offering an unparalleled whiteboard and sharing experience. Developed using the powerful ReactJS framework, our app seamlessly combines intuitive design with advanced functionalities to enhance your collaborative efforts.
 
-The Community website aims to serve a glimpse of moja global's projects and their work to the wider community. The website hosts projects, case studies, blogs, tutorials, and more developed by the wider moja community to help you better understand our work and hopefully learn from other's experiences.
+## Related image (Project under progress) 🚧
 
-Our mission is to help new users become familiar with the moja global community. We want to:
+![Screenshot](https://i.postimg.cc/65rBwdy5/Screenshot.png)
 
-- Explain FLINT and the ecosystem surrounding it to anyone who is new to the ecosystem.
-- Cover updates across the ecosystem to help users stay up to date.
-- Bring Measure, Reporting, and Verification (MRV) software education to the community, in as many languages as possible.
-- Assist new developers, writers, community managers and other contributors to get started on our projects.
-- Provide them an opportunity to work on funded projects under the mentorship of the community members.
+---
 
-## Technology Stack
+## Technologies used 💻
 
-We use a variety of technologies to build the web interface and support the community. They include:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-%23563D7C.svg?style=for-the-badge&logo=MUI&logoColor=white)
+![verce](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=verce&logoColor=#00C7B7)
 
-- [NodeJS](https://nodejs.org/)
-- [Yarn package manager](https://yarnpkg.com/)
-- [Docusaurus](https://docusaurus.io/)
-- [React](https://reactjs.org/)
-- [Algolia DocSearch](https://www.algolia.com/)
-- [GitHub Actions](https://github.com/features/actions)
-- [Vercel](https://vercel.com/)
-- [LightHouse](https://lighthouse.io/)
+## Willing to help ? 👩🏻‍💻
 
-We use NodeJS and Yarn to install, test, and build the website. Docusaurus has been used as a static site generator to build the website. React is being utilized to build our custom component-based user interface to provide a modern look to the website. Algolia DocSearch is used to provide search functionality to the website, offering site-indexing and rapid fast intra-site search results. GitHub Actions manages our CI/CD pipelines and issue triage. Vercel is used to deploy the website while providing us DNS management and automated deployment of our pull requests. LightHouse is used to continuously monitor our website benchmarks and help us identify SEO, accessibility and performance issues.
+*A beginner to Open Source, Web Development ?*  
 
-## Installation
+This might be the debut repo for you, you can contribute to this repo, solve the issues, raise one and learn more about web as well as get started with Open Source and contributing to projects. Remember, we believe in *Quality*.
 
-Before setting up the project make sure the LTS (Long Term Support) version of NodeJS is installed. We recommend using the Yarn package manager to install the project.
+## Setup Steps 🔐
 
-1. Fork the [community-website repository](https://github.com/moja-global/community-website).
-2. Clone the repository:
-  ```sh
-  git clone git@github.com:<USERNAME>/community-website.git && cd community-website
-  ```
-  Replace the `<USERNAME>` with your GitHub username. If you've already forked the repo, you'll want to ensure your fork is configured and that it's up to date. This will save you the headache of potential merge conflicts. To configure your fork:
-  ```sh
-  git remote add upstream https://github.com/moja-global/community-website.git
-  ```
-  To sync your fork with the latest changes:
-  ```sh
-  git checkout main
-  git fetch upstream
-  git merge upstream/main
-  ```
-3. Move to website directory:
-  ```sh
-  cd website
-  ``` 
-4. Install the project:
-  ```sh
-  yarn
-  ```
-5. Start the project:
-  ```sh
-  yarn start
-  ```
-6. Build the project:
-  ```sh
-  yarn build
-  ```
-7. Serve the project:
-  ```sh
-  yarn serve
-  ```
+Follow these steps to set up the DoodleCollab app locally:
 
-## How to Get Involved?
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/WikiPortal/DoodleCollab.git
+    ```
 
-Moja global welcomes contributions to the community website. If you have an idea for a new feature or a bug fix, please submit an issue or pull request. Our planned features can be found on our [Issue Tracker](https://github.com/moja-global/community-website/issues). Our contribution guides include:
+2. **Navigate to the project directory:**
+    ```bash
+    cd DoodleCollab
+    ```
 
-- [How to write and publish a blog](https://community.moja.global/community/community-website-contributions#writing-new-blogs)
-- [How to write and publish documentation](https://community.moja.global/community/community-website-contributions#adding-new-documentation)
-- [How to add meetings](https://github.com/moja-global/community-website/blob/main/website/meetings.md)
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Developer Notes
+4. **If vite is not installed:**
+    ```bash
+    npm i vite
+    npm install --legacy-peer-deps
+    ```
 
-### Linting
+5. **Start the development server:**
+    ```bash
+    npm run start
+    ```
 
-The project has ESLint configured to properly format the code. This enables developers to follow the same coding style and to avoid improperly-linted code. All the commands below should be run from the `website` directory.
+6. **Open your browser and visit [http://localhost:5173](http://localhost:5173):**
+   <br>
 
-```sh
-yarn lint
-```
-This command logs all warnings and lint errors and the scope of fixes/improvements.
-
-```sh
-yarn lint:fix
-```
-This option instructs ESLint to try to fix as many issues as possible. The fixes are made to the actual files themselves and only the remaining unfixed issues are output.
-
-```sh
-eslint --ignore-path tmp/.eslintignore file.js
-```
-This option allows you to specify the file to use as your `.eslintignore`. By default, ESLint looks in the current working directory for `.eslintignore`. You can override this behavior by providing a path to a different file.
-
-### Deployment
-
-We use Vercel for deployment. To enable Vercel, create an account  and through the Vercel dashboard, you can create a new project by importing a GitHub repository. The repository should be a fork of the `moja-global/community-website` repository. Vercel will automatically configure the build settings for the project and deploy it. You can further configure the domain name and other settings in the Vercel dashboard.
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push it to the `gh-pages` branch.
-
-```sh
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-You can optionally deploy it using Docker Compose. Push the following commands to your terminal.
-
-```sh
-docker-compose up --build
-```
-
-### Frequently Asked Questions
-
-We have a [FAQ](FAQq.md) page that answers common questions around the community website and how to contribute to it.
-
-## Support
-
-Moja global thrives on community participation, and we appreciate your contributions to our website and our documentation!
-
-You can reach out to us through the following channels:
-
-- [info@moja.global](mailto:info@moja.global) : Ask questions about moja global relevant to the members and management with a point of focus for new user countries and policymakers.
-- [tsc@moja.global](mailto:tsc@moja.global) : Ask questions about contributing code, helping out with development, resolving issues and building new features with moja global teams.
-- [mentorship@moja.global](mailto:mentorship@moja.global) : Ask questions about participating in the community, sponsoring programs, funding opportunities, and community development.
-- [Slack community](https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw ): Connect with other developers, scientists, policymakers, and other interested people over our Slack community.
+You can execute these commands one by one in a bash environment.
+- *You can also have a look at the [Contributing Guidelines](CONTRIBUTING.md) for proper contributions*
+- *Have a look at the [Setup Guidelines](rules/Setup.md) to setup the react app locally*
+- *Click here [Workflow Guidelines](workflow.md) to see the workflow of the project.*
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+Thanks goes to these wonderful people:
 <table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/abhishek-kr09/"><img src="https://avatars.githubusercontent.com/u/48255244?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhishek Kumar</b></sub></a><br /><a href="#infra-Abhishek-kumar09" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://siddhant-k-code.github.io/"><img src="https://avatars.githubusercontent.com/u/55068936?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddhant Khare</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=Siddhant-K-code" title="Code">💻</a> <a href="https://github.com/moja-global/community-website/pulls?q=is%3Apr+reviewed-by%3ASiddhant-K-code" title="Reviewed Pull Requests">👀</a> <a href="#mentoring-Siddhant-K-code" title="Mentoring">🧑‍🏫</a> <a href="#question-Siddhant-K-code" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://github.com/eemike07"><img src="https://avatars.githubusercontent.com/u/2515617?v=4?s=100" width="100px;" alt=""/><br /><sub><b>eemike07</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=eemike07" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.linkedin.com/in/faisaljamil25"><img src="https://avatars.githubusercontent.com/u/69186619?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Faisal Jamil</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=faisaljamil25" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/utkarsh1311"><img src="https://avatars.githubusercontent.com/u/70108561?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Utkarsh Maurya</b></sub></a><br /><a href="https://github.com/moja-global/community-website/issues?q=author%3Autkarsh1311" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/17bcs1837"><img src="https://avatars.githubusercontent.com/u/62862321?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aman Kumar</b></sub></a><br /><a href="https://github.com/moja-global/community-website/issues?q=author%3A17bcs1837" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/romasinha"><img src="https://avatars.githubusercontent.com/u/65072006?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Roma Sinha</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=romasinha" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://anirudhpanda.me/"><img src="https://avatars.githubusercontent.com/u/66218496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anirudh Panda</b></sub></a><br /><a href="https://github.com/moja-global/community-website/issues?q=author%3AAnirudhPanda" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/padmajabhol"><img src="https://avatars.githubusercontent.com/u/75530516?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Padmaja Bhol</b></sub></a><br /><a href="https://github.com/moja-global/community-website/issues?q=author%3Apadmajabhol" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/Ishika414"><img src="https://avatars.githubusercontent.com/u/78595001?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ishika414</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=Ishika414" title="Code">💻</a></td>
-    <td align="center"><a href="https://megatank58.me/"><img src="https://avatars.githubusercontent.com/u/51410502?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Megatank58</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=Megatank58" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/rutujaingole"><img src="https://avatars.githubusercontent.com/u/72335505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rutujaingole</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=rutujaingole" title="Documentation">📖</a> <a href="#infra-rutujaingole" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="http://iamrajiv.github.io"><img src="https://avatars.githubusercontent.com/u/42106787?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rajiv Singh</b></sub></a><br /><a href="#infra-iamrajiv" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://mizanxali.github.io/"><img src="https://avatars.githubusercontent.com/u/59915742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mizan Ali</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=mizanxali" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://www.juliancabezas.com"><img src="https://avatars.githubusercontent.com/u/17553010?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julián Cabezas</b></sub></a><br /><a href="#translation-juliancabezas" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/Devesh21700Kumar"><img src="https://avatars.githubusercontent.com/u/59202075?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devesh Kumar</b></sub></a><br /><a href="https://github.com/moja-global/community-website/issues?q=author%3ADevesh21700Kumar" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/JanaTod"><img src="https://avatars.githubusercontent.com/u/91850076?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JanaTod</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=JanaTod" title="Code">💻</a></td>
-    <td align="center"><a href="https://aniket.live"><img src="https://avatars.githubusercontent.com/u/67703407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=Aniket762" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/caseynv"><img src="https://avatars.githubusercontent.com/u/67697400?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kelechukwu Nwandu</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=caseynv" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/Sukriti-sood"><img src="https://avatars.githubusercontent.com/u/55010599?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sukriti Sood</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=Sukriti-sood" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/aayushsrivastava9760"><img src="https://avatars.githubusercontent.com/u/81965095?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aayush Srivastava</b></sub></a><br /><a href="#design-aayushsrivastava9760" title="Design">🎨</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/khush2706"><img src="https://avatars.githubusercontent.com/u/86849664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Khushboo Chaturvedi</b></sub></a><br /><a href="https://github.com/moja-global/community-website/commits?author=khush2706" title="Code">💻</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/AaadityaG"><img src="https://avatars.githubusercontent.com/u/114663382?v=4?s=100" width="100px;" alt="Aditya"/><br /><sub><b>Aditya</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=AaadityaG" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/adityaslyf"><img src="https://avatars.githubusercontent.com/u/118926308?v=4?s=100" width="100px;" alt="Aditya Varshney"/><br /><sub><b>Aditya Varshney</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=adityaslyf" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://keyurgk.vercel.app/"><img src="https://avatars.githubusercontent.com/u/56074740?v=4?s=100" width="100px;" alt="Keyur G Kulkarni"/><br /><sub><b>Keyur G Kulkarni</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=KeyurGK" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Paarisha1"><img src="https://avatars.githubusercontent.com/u/147527266?v=4?s=100" width="100px;" alt="Paarisha1"/><br /><sub><b>Paarisha1</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=Paarisha1" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://bikram-ghuku.github.io/portfolio"><img src="https://avatars.githubusercontent.com/u/37508038?v=4?s=100" width="100px;" alt="Bikram Ghuku"/><br /><sub><b>Bikram Ghuku</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=Bikram-ghuku" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Souvik34"><img src="https://avatars.githubusercontent.com/u/98397984?v=4?s=100" width="100px;" alt="Souvik"/><br /><sub><b>Souvik</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=Souvik34" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/isayanpal"><img src="https://avatars.githubusercontent.com/u/102523492?v=4?s=100" width="100px;" alt="Sayan Snigdha Pal"/><br /><sub><b>Sayan Snigdha Pal</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=isayanpal" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://itsroy69.github.io/Portfolio-Minimal/"><img src="https://avatars.githubusercontent.com/u/78967360?v=4?s=100" width="100px;" alt="Jyotirmoy Roy"/><br /><sub><b>Jyotirmoy Roy</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=ItsRoy69" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/davidkrupa"><img src="https://avatars.githubusercontent.com/u/126403373?v=4?s=100" width="100px;" alt="davidkrupa"/><br /><sub><b>davidkrupa</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=davidkrupa" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/praptisharma28"><img src="https://avatars.githubusercontent.com/u/123169861?v=4?s=100" width="100px;" alt="Prapti Sharma"/><br /><sub><b>Prapti Sharma</b></sub></a><br /><a href="https://github.com/WikiPortal/DoodleCollab/commits?author=praptisharma28" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td align="center" size="13px" colspan="7">
+        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
+          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
+        </img>
+      </td>
+    </tr>
+  </tfoot>
 </table>
+Contributions of any kind are welcome!🤗
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+## License 👮
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+DoodleCollab is Licensed under the <a href="/LICENSE">Apache License</a>. Please go through the License at least once before contributing.
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+## Support 🙏
 
-## License
+This project needs a ⭐ from you. Don't forget to leave a star ⭐
 
-This project is licensed under the [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/).
+## Happy Contributions ! 🚀
+
+---
